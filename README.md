@@ -1,33 +1,21 @@
-### Network Topology Overview
+**Network Infrastructure Overview:**
 
-The topology consists of a **core layer** with the TP-Link ER605 Router for internet connectivity and security functions, a **distribution layer** with the TP-Link TL-SG116E Switch to manage traffic between devices, and an **access layer** where the end devices, including the Mini PC, servers, and WiFi access, are connected.
+Implemented and managed a robust network infrastructure featuring a hierarchical topology, ensuring efficient data flow and connectivity across all layers.
 
-#### Core Layer
+**Core Layer:**
+- Utilized TP-Link ER605 V2 Wired Gigabit VPN Router as the central gateway for internet connectivity and secure remote access via VPN technology.
 
-1. **TP-Link ER605 V2 Wired Gigabit VPN Router**:
-   - This router acts as the gateway to the internet. It handles external traffic from and to the network through up to 3 WAN connections for load balancing or failover. It's also responsible for VPN connections, ensuring secure remote access.
+**Distribution Layer:**
+- Deployed TP-Link TL-SG116E 16 Port Gigabit Switch to efficiently manage network traffic, incorporating advanced features such as QoS, VLANs, and LAG for optimized performance and segmentation.
 
-#### Distribution Layer
+**Access Layer:**
+- Integrated AMD Ryzen 7 5700U Mini PC as a high-performance workstation and server for diverse applications, enhancing network accessibility and functionality.
+- Leveraged Linux Ubuntu Server and Windows 2019 AD Server for hosting critical services, including file sharing, web applications, user authentication, and policy enforcement.
 
-2. **TP-Link TL-SG116E 16 Port Gigabit Switch**:
-   - The switch serves as the central hub for all wired network communications. It connects to the router and distributes network traffic to all devices in the network. It supports advanced features like QoS, VLANs, IGMP, and LAG for traffic management and network segmentation.
+**Wireless Connectivity:**
+- Established wireless access points using TP-Link AX1800 WiFi 6 Router (Archer AX21), ensuring seamless connectivity for mobile devices and laptops with support for WiFi 6 technology.
 
-#### Access Layer
-
-3. **AMD Ryzen 7 5700U Mini PC**:
-   - This high-performance PC can be used as a workstation or a server for specific applications. It connects to the switch for network access.
-
-4. **Linux Ubuntu Server**:
-   - This server can host various services such as file sharing, web applications, or database services. It connects to the switch, allowing it to serve clients within the network or on the internet through the router.
-
-5. **Windows 2019 AD Server**:
-   - Essential for managing domain services, user authentication, and policy enforcement in a Windows environment. It connects to the switch for network access and to manage authentication and policies for devices and users.
-
-6. **TP-Link AX1800 WiFi 6 Router (Archer AX21)**:
-   - Provides wireless access to the network for mobile devices and laptops. It connects to the switch, allowing WiFi devices to access resources within the local network and the internet. This router supports WiFi 6 for improved bandwidth and efficiency.
-
-#### Visual Representation
-
+**Visual Representation:**
 ```
 Internet
    |
@@ -49,4 +37,10 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
                    |                     |
                  Ubuntu Server             Windows Server 2019 AD
 ```
+**Key Responsibilities:**
+- Designed and configured network architecture to meet organizational requirements for performance, security, and scalability.
+- Conducted regular maintenance and monitoring activities to ensure network uptime and reliability.
+- Collaborated with cross-functional teams to troubleshoot and resolve network issues promptly, minimizing disruptions to operations.
+- Provided technical expertise and support to optimize network performance and address evolving business needs.
+
 
