@@ -16,6 +16,9 @@ Implemented and managed a robust network infrastructure featuring a hierarchical
 - Established wireless access points using TP-Link AX1800 WiFi 6 Router (Archer AX21), ensuring seamless connectivity for mobile devices and laptops with support for WiFi 6 technology.
 
 **Visual Representation:**
+
+'''
+
 Internet
    |
 Xfinity WiFi Router (ISP provided)
@@ -45,6 +48,9 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
         Wireless          Wireless          Wireless
        Devices (*)       AMD Ryzen 7         Other Wireless
                          5700U Mini PC        Devices
+
+'''
+
 
 **Key Responsibilities:**
 - Designed and configured network architecture to meet organizational requirements for performance, security, and scalability.
