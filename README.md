@@ -52,9 +52,8 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
 
 
 **Key Responsibilities:**
-- Designed and configured network architecture to meet organizational requirements for performance, security, and scalability.
-- Conducted regular maintenance and monitoring activities to ensure network uptime and reliability.
-- Collaborated with cross-functional teams to troubleshoot and resolve network issues promptly, minimizing disruptions to operations.
-- Provided technical expertise and support to optimize network performance and address evolving business needs.
-
+- Conceptualized and configured the network architecture to align with organizational objectives for performance, security, and scalability.
+- Conducted routine maintenance and monitoring activities to uphold network uptime and reliability.
+- Collaborated closely with cross-functional teams to swiftly troubleshoot and resolve network issues, minimizing disruptions to operational workflows.
+- Offered expert technical support and guidance to optimize network performance and adapt to evolving business requirements.
 
