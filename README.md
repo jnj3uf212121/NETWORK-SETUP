@@ -16,13 +16,28 @@ Implemented and managed a robust network infrastructure featuring a hierarchical
 - Established wireless access points using TP-Link AX1800 WiFi 6 Router (Archer AX21), ensuring seamless connectivity for mobile devices and laptops with support for WiFi 6 technology.
 
 **Visual Representation:**
-```
 Internet
    |
 Xfinity WiFi Router (ISP provided)
    | (in bridge mode)
 TP-Link ER605 V2 Wired Gigabit VPN Router
    |
+   |--- TP-Link TL-SG116E 16 Port Gigabit Switch
+   |               |                |
+   |               |                |
+   |               |                |
+   |            Wired             Wired
+   |         Devices (*)       AMD Ryzen 7         
+   |                             5700U Mini PC        
+   |                             |
+   |                         Windows 11 Pro (Hyper V)
+   |                             |
+   |                   -----------------------
+   |                   |                     |
+   |                 Ubuntu Server             Windows Server 2019 AD
+   |                   |                     |
+   |            Other Wired Devices        Other Wired Devices
+   |            
    |--- TP-Link AX1800 WiFi 6 Router (Archer AX21) -- Wireless Network
            |                  |                 |
            |                  |                 |
@@ -30,13 +45,7 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
         Wireless          Wireless          Wireless
        Devices (*)       AMD Ryzen 7         Other Wireless
                          5700U Mini PC        Devices
-                             |
-                        Windows 11 Pro (Hyper V)
-                             |
-                   -----------------------
-                   |                     |
-                 Ubuntu Server             Windows Server 2019 AD
-```
+
 **Key Responsibilities:**
 - Designed and configured network architecture to meet organizational requirements for performance, security, and scalability.
 - Conducted regular maintenance and monitoring activities to ensure network uptime and reliability.
