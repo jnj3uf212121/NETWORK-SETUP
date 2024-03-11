@@ -24,6 +24,22 @@ Xfinity WiFi Router (ISP provided)
    | (in bridge mode)
 TP-Link ER605 V2 Wired Gigabit VPN Router
    |
+   |--- TP-Link TL-SG116E 16 Port Gigabit Switch
+   |               |                |
+   |               |                |
+   |               |                |
+   |            Wired             Wired
+   |         Devices (*)       AMD Ryzen 7         
+   |                             5700U Mini PC        
+   |                             |
+   |                         Windows 11 Pro (Hyper V)
+   |                             |
+   |                   -----------------------
+   |                   |                     |
+   |                 Ubuntu Server             Windows Server 2019 AD
+   |                   |                     |
+   |            Other Wired Devices        Other Wired Devices
+   |            
    |--- TP-Link AX1800 WiFi 6 Router (Archer AX21) -- Wireless Network
            |                  |                 |
            |                  |                 |
@@ -31,12 +47,7 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
         Wireless          Wireless          Wireless
        Devices (*)       AMD Ryzen 7         Other Wireless
                          5700U Mini PC        Devices
-                             |
-                        Windows 11 Pro (Hyper V)
-                             |
-                   -----------------------
-                   |                     |
-                 Ubuntu Server             Windows Server 2019 AD
+
 ```
 
 
