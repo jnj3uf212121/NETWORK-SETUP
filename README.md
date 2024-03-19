@@ -1,19 +1,19 @@
-**Network Infrastructure Overview:**
+**Home Network Infrastructure Overview:**
 
-Implemented and managed a robust network infrastructure featuring a hierarchical topology, ensuring efficient data flow and connectivity across all layers.
+I implemented and managed a robust home network infrastructure using a hierarchical topology to ensure efficient data flow and connectivity throughout my residence.
 
 **Core Layer:**
-- Utilized TP-Link ER605 V2 Wired Gigabit VPN Router as the central gateway for internet connectivity and secure remote access via VPN technology.
+- Employed a TP-Link ER605 V2 Wired Gigabit VPN Router as the central gateway for internet connectivity, facilitating secure remote access with VPN technology.
 
 **Distribution Layer:**
-- Deployed TP-Link TL-SG116E 16 Port Gigabit Switch to efficiently manage network traffic, incorporating advanced features such as QoS, VLANs, and LAG for optimized performance and segmentation.
+- Deployed a TP-Link TL-SG116E 16 Port Gigabit Switch to manage home network traffic effectively, utilizing advanced features such as QoS, VLANs, and LAG for optimized performance and segmentation.
 
 **Access Layer:**
-- Integrated AMD Ryzen 7 5700U Mini PC as a high-performance workstation and server for diverse applications, enhancing network accessibility and functionality.
-- Leveraged Linux Ubuntu Server and Windows 2019 AD Server for hosting critical services, including file sharing, web applications, user authentication, and policy enforcement.
+- Integrated an AMD Ryzen 7 5700U Mini PC as a high-performance workstation and server, hosting a variety of applications and services, thus enhancing network functionality.
+- Set up both Linux Ubuntu Server and Windows 2019 AD Server for crucial home services, including file sharing, web applications, user authentication, and policy management.
 
 **Wireless Connectivity:**
-- Established wireless access points using TP-Link AX1800 WiFi 6 Router (Archer AX21), ensuring seamless connectivity for mobile devices and laptops with support for WiFi 6 technology.
+- Configured TP-Link AX1800 WiFi 6 Router (Archer AX21) to provide stable and fast wireless access throughout the house, supporting WiFi 6 technology for enhanced connectivity.
 
 **Visual Representation:**
 
@@ -50,10 +50,12 @@ TP-Link ER605 V2 Wired Gigabit VPN Router
 
 ```
 
+**Key Activities:**
+- Designed and set up the home network infrastructure to optimize for personal performance, security, and scalability needs.
+- Performed routine maintenance and monitoring to ensure network reliability and performance in my home environment.
+- Troubleshot and resolved network issues independently, maintaining optimal network uptime and functionality.
+- Leveraged my technical expertise to continually refine and enhance the network setup to meet my evolving home usage requirements.
 
-**Key Responsibilities:**
-- Conceptualized and configured the network architecture to align with organizational objectives for performance, security, and scalability.
-- Conducted routine maintenance and monitoring activities to uphold network uptime and reliability.
-- Collaborated closely with cross-functional teams to swiftly troubleshoot and resolve network issues, minimizing disruptions to operational workflows.
-- Offered expert technical support and guidance to optimize network performance and adapt to evolving business requirements.
+
+
 
